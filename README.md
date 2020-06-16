@@ -1,4 +1,5 @@
-# Evaluation of variational phase-field models for dynamic brittle fracture
+# dynamic-fracture
+Reference: Evaluation of variational phase-field models for dynamic brittle fracture
 -- by T.K. Mandal, V.P. Nguyen and J.Y. Wu, Engineering Fracture Mechanics (June, 2020)
 
 The repository contains the main input and output data for the above-mentioned paper. This includes following directories corresponds to different dynamic fracture examples using PFM as described in the paper. FE mesh have been generated using GMSH and simulations are carried out using in-house C++ based FE code feFRAC based on the open source jive library at https://jive.dynaflow.com
