@@ -1,0 +1,17 @@
+<!-- Include the finite element mesh data from another file -->
+
+
+<!-- Define the constraints (supports). -->
+
+<!-- Define a table with external loads -->
+
+<NodeTable name="disp">
+
+  <Section columns="dy">
+
+    bottom -1.0;
+
+  </Section>
+
+</NodeTable>
+

@@ -1,0 +1,4 @@
+<!-- Include the finite element mesh data from another file -->
+
+<Include source="plate.mesh"/>
+
