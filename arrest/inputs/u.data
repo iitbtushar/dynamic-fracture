@@ -1,0 +1,20 @@
+<!-- Define the constraints (supports). -->
+
+<NodeConstraints>
+
+  dx[RightNodes] = 0.0;
+
+</NodeConstraints>
+
+<!-- Define a table with external loads -->
+
+<NodeTable name="disp">
+
+  <Section columns="dx">
+
+    LeftNodes 1.0;
+
+  </Section>
+
+</NodeTable>
+
